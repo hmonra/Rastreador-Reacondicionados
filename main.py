@@ -90,8 +90,8 @@ def telegram_bot_sendtext(bot_message):
 
 # BOT "STOCKAUTOBUY"
 def telegram_bot_sendtext2(bot_message):
-    bot_token = '1863483366:AAHWPzJ3BXbMcgVtsxtmFRBlrHIbvzMD9DE'
-    bot_chatID = '179958235'
+    bot_token = 'TOKEN_BOT' # SUSTITUIR POR EL TOKEN DEL BOT
+    bot_chatID = 'CHAT_ID' # SUSTITUIR POR EL ID DEL CHAT
     send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
 
     driver.get(send_text)
