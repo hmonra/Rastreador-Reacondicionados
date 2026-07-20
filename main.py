@@ -14,10 +14,10 @@ boton_comprar = 'sc-iqHYmW.zvotO'
 # Opciones de navegación
 options = webdriver.ChromeOptions()
 
-hostname = "195.114.204.198"
+hostname = "PROXY_HOST"
 port = "58542"
 proxy_username = "LavgL2K3IJ"
-proxy_password = "kPj8SHOM2y"
+proxy_password = "PROXY_PASS"
 
 # options.add_argument('--proxy-server={}'.format(hostname + ":" + port))
 
