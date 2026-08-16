@@ -1,0 +1,39 @@
+# ---- Secrets (NEVER commit) ----
+.env
+.env.*
+!.env.example
+secrets*.json
+SECRETS.txt
+*.pem
+*.crt
+*.key
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ---- IDE ----
+.idea/
+.vscode/
+
+# ---- Binaries ----
+chromedriver.exe
+chromedriver
+*.exe
+
+# ---- OS ----
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ---- Logs / state ----
+*.log
+*.sqlite3
+*.db
